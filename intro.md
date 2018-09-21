@@ -1,0 +1,5 @@
+¿Qué es integración continua?
+    Es una practica de software donde los miembros de un equipo integra su trabajo frecuentemente a un proyecto. La integracion se valida mediante test de despliegue para detectar errores de despliegue que puedan ser corregidos rapidamente. La integracion continua permite desarrollar y entregar software cohesivo rapidamente.
+
+¿Para qué sirve DevOps?
+    Sirve para eliminar los problemas de entre areas de analisis, desarrollo, pruebas y operaciones ,y fomentar la colaboracion entre el área de desarrollo y operaciones. DevOps nos ayuda a comunicarnos mas facilmente y reducir el tiempo de desarrollo y entrega. El objetivo de DevOps es organizar los procesos por areas separadas y de facil acoplamiento entre areas de trabajo. Para implementar DevOps es necesario cambiar la cultura de la organizacion para poder establecer los canales de comunicacion que nos permita fomentar la colaboracion entre areas.
