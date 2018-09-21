@@ -3,6 +3,7 @@ Capacitación: Git, bash y docker
 Integrantes:
 - Steven Ortiz
 - Marcos Choque Asto
+- Juan Salvador
 
 1. ¿Qué es y para qué sirve GIT?
     Git es un sistema de control de versiones distribuido. Sirve para versionar nuestros archivos, controlar el historial de cambios y crear ramas de desarrollo alternas.
