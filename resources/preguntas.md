@@ -51,3 +51,9 @@ El archivo no será reconocido como un ejecutable bash.
 Si, puede ser modificado a zsh o sh.
 5. **¿Cómo se envía variables de entorno por Docker CLI y docker-compose?**
 Con el comando environment dentro del docker run o en el docker-compose
+
+---
+1. **¿Para qué sirve el archivo `Makefile`?**
+Sirve para definir un conjunto de tareas a ejecutar de manera organizada.
+2. **¿Qué es un `target` en `Makefile`?**
+Es la acción a ejecutar.
