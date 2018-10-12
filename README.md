@@ -16,3 +16,7 @@ Accion sin definir workdir: Muestra error ya que por defecto el workdir de un co
 Acción con workdir: Se ejecuto el comando npm install satisfactoriamente ya que el contenedor se encontraba posicionado dentro de la carpeta /app luego de realizar el volumeo de los archivos.
 
 *docker run -v $PWD:/app -w /app juansalvadorg/orbis-training-docker:1.0.0 npm install 
+
+Comando para exponer puertos y mostrar archivo preguntas.md
+
+docker run -v $PWD:/app -w /app -p 3030:3030 -p 35729:35729 juansalvadorg/orbis-training-docker:1.0.0 npm start
