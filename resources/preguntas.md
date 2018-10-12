@@ -40,3 +40,14 @@ Si, porque con esto especificamos la ubicación por defecto del contenedor en ca
  - `docker network`
  	Permite administrar redes de docker.
  	
+---
+1. **¿Qué es bash? ¿Qué significa?**
+Es un programa informático que interpreta ordenes para comunicarse con el kernel.
+2. **¿Cómo ejecuto un archivo bash?**
+Se puede ejecutar con el comando sh y/o referenciando a la ruta del archivo.
+3. **¿Qué pasa si no especifico en un `.sh`, la linea `#!/bin/bash`?**
+El archivo no será reconocido como un ejecutable bash.
+4. **¿Se puede cambiar el modo bash (`/bin/bash`) a otro tipo de ejecución?**
+Si, puede ser modificado a zsh o sh.
+5. **¿Cómo se envía variables de entorno por Docker CLI y docker-compose?**
+Con el comando environment dentro del docker run o en el docker-compose

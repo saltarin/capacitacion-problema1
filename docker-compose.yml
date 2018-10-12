@@ -10,3 +10,17 @@ services:
         - "35729:35729"
       command: npm start
       working_dir: /app
+    test:
+      container_name: test
+      image: node:10.10.0-slim
+      volumes:
+        - ./:/app
+      command: curl http://orbis-training-project:3030
+      working_dir: /app
+      depends_on:
+        - npm
+
+networks:
+  default:
+    external:
+      name: training
