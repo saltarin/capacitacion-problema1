@@ -2,6 +2,12 @@
 
 pipeline {
   agent any
+  parameters {
+    choice(
+      name: 'DEPLOY',
+      choices: ["gh-page","aws"],
+      description: "Ambiente de despliegue")
+  }
   stages {
     stage('Build') {
       steps {
@@ -18,7 +24,11 @@ pipeline {
     stage('Deploy') {
       steps {
         sh 'make release'
-        sh 'make deploy.ghpages'
+        if ("${DESIRED_COUNT}" == "aws") {
+            sh 'make deploy.aws'
+        } else {
+            sh 'make deploy.ghpages'
+        }
       }
     }
   }
