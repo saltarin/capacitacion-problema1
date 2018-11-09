@@ -4,7 +4,7 @@ DEPLOY_DIR       = deploy
 BUILD_DIR        = build
 DEPLOY_REGION   ?= eu-west-1
 DEPLOY_BUCKET    = $(ENV)-orbis-training
-DEPLOY_USER_NAME = 'juan.salvador'
+DEPLOY_USER_NAME = 'marcos.choque'
 
 deploy.aws: ## Desplegando bucket.: make deploy.aws
 	@echo "Desplegando cambios al bucket: $(DEPLOY_BUCKET)"

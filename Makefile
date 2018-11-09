@@ -1,7 +1,7 @@
 include makefiles/task.mk
 include makefiles/deploy-ghpages.mk
 
-NAME_IMAGE = juansalvadorg/orbis-training-docker
+NAME_IMAGE = marcoschoque/orbis-training-docker
 DOCKER_TAG = 1.0.0
 DOCKER_IMAGE = $(NAME_IMAGE):$(DOCKER_TAG)
 NAME ?= Gerardo

@@ -2,7 +2,7 @@
 DEPLOY_DIR = deploy
 BUILD_DIR = build
 GIT_BRANCH = gh-pages
-GIT_PERSONAL_TOKEN = 6a4aef74a17567d3ee2bc0aba2996128e8c58caa
+GIT_PERSONAL_TOKEN = --- FALTA ---
 GIT_BRANCH_DIR = $(PWD)/$(DEPLOY_DIR)/$(GIT_BRANCH)
 
 deploy.ghpages:
